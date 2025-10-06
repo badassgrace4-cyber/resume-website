@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+    </nav>
+
+    <section id="about">
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer | Student</p>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div>
+            <h3>Job Title 1</h3>
+            <p>Company Name | Jan 2022 - Present</p>
+            <ul>
+                <li>Responsibility or achievement description.</li>
+                <li>Responsibility or achievement description.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Job Title 2</h3>
+            <p>Company Name | Jan 2020 - Dec 2021</p>
+            <ul>
+                <li>Responsibility or achievement description.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div>
+            <h3>Degree Name</h3>
+            <p>University Name | Graduation Year</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+</body>
+</html>
